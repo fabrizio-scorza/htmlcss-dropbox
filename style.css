@@ -21,3 +21,48 @@ button{
 body{
     font-family: 'Open Sans', sans-serif;
 }
+
+/* LAYOUT */
+.container-lg{
+    width: 100%;
+    margin: 0 auto;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.container-sm{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* UTILITIES */
+.flex{
+    display: flex;
+}
+.btn{
+    background-color:#0061ff;
+    color: white;
+    padding: 6px 15px;
+
+}
+/* HEADER */
+.page__header .row {
+    justify-content: space-between;
+    padding: 20px 10px;
+    line-height: 32px;
+}
+.page__header li{
+    padding-right: 15px;
+}
+.page__header a:not(.btn){
+    font-size: 16px;
+    padding: 6px;
+}
+.page__header img{
+    width: 150px;
+}
