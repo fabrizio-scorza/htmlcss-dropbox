@@ -22,6 +22,7 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+
 /* LAYOUT */
 .container-lg{
     width: 100%;
@@ -46,6 +47,7 @@ body{
     width: calc(8*100%/12);
 }
 
+
 /* UTILITIES */
 .flex{
     display: flex;
@@ -54,8 +56,15 @@ body{
     background-color:#0061ff;
     color: white;
     padding: 6px 15px;
-
 }
+.section-title{
+    font-size: 42px;
+}
+.text{
+    font-size: 18px;
+}
+
+
 /* HEADER */
 .page__header .row {
     justify-content: space-between;
@@ -82,13 +91,14 @@ body{
     font-weight: 800;
     font-size: 72px;
     line-height: 100px;
-    padding-bottom: 60px;
 }
-.text{
-    font-size: 18px;
+.translate{
+    transform:translateY(18%)
+}
+.content .text{
     padding-bottom: 30px;
     }
-.content.flex{
+.flex.content{
     flex-direction: column;
     align-items: flex-start;
 }
@@ -99,5 +109,26 @@ body{
     font-weight: 800;
     font-size: 52px;
     margin-top: auto;
-    margin-bottom: 30px;
+    margin-bottom: 80px;
+}
+
+
+/* BILLING SECTION */
+.billing__section{
+    margin-top:80px;
+}
+.billing__section .section-title{
+    padding: 50px 0;
+}
+.billing-radio{
+    width: 18px;
+    height: 18px;
+    position: relative;
+    top: 4px;
+}
+label.text{
+    padding-right: 50px;
+}
+.billing__section .container-sm {
+    padding-bottom: 50px;
 }
