@@ -137,3 +137,23 @@ label.text{
 .billing__section .container-sm {
     padding-bottom: 50px;
 }
+.row >.col-4 {
+    padding:0 20px
+}
+.card{
+    height: 100%;
+    border: 2px solid #E5E5E7;
+    padding-bottom: 30px;
+}
+.card__head{
+    text-align: center;
+    border-bottom:2px solid #E5E5E7;
+}
+.card__body.flex{
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 30px 18px;
+}
+.card__body span{
+    display:block;
+}
