@@ -161,7 +161,7 @@ label.text{
 .card__body.flex{
     flex-wrap: wrap;
     justify-content:flex-start;
-    gap: 20px;
+    row-gap: 20px;
     padding: 30px 18px;
 }
 .card__body h4{
@@ -179,6 +179,54 @@ label.text{
     color: #AAAFAF;
 }
 .plan__detail ul{
+    flex-wrap: wrap;
     min-height:140px;
     line-height: 20px;
+}
+.plan__detail ul li::before {
+    padding-right: 15px;
+}
+.subscribe{
+    flex-grow: 1;
+}
+.card .btn{
+    width: 100%;
+    height: 40px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.subscribe a:last-child{
+    text-decoration: underline;
+    color:blue;
+}
+.subscribe p{
+    width: 60%;
+    border-bottom: 2px solid #E5E5E7;
+    padding-bottom: 30px;
+}
+.plan__highlights h5{
+    padding: 15px 0;
+}
+.plan__highlights li{
+    padding-bottom:15px;
+}
+.plan__highlights li::before{
+    content: '\2713';
+    margin-right: 5px;
+    color: #0161FF;
+    font-size: 18px;
+    font-weight: 700;
+}
+.company{
+    margin: 50px 20px;
+    max-height: 250px;
+}
+.card__body .col-8{
+    padding:30px;
+}
+.col-8 h5{
+    padding-bottom: 30px;
+}
+.company .col-4{
+    padding: 30px;
 }
