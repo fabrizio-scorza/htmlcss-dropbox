@@ -63,6 +63,9 @@ body{
 .text{
     font-size: 16px;
 }
+.text-sm{
+    font-size: 14px;
+}
 
 
 /* HEADER */
@@ -137,6 +140,8 @@ label.text{
 .billing__section .container-sm {
     padding-bottom: 50px;
 }
+
+/* PLAN SECTION */
 .row >.col-4 {
     padding:0 20px
 }
@@ -145,15 +150,35 @@ label.text{
     border: 2px solid #E5E5E7;
     padding-bottom: 30px;
 }
+.card i{
+    padding-right: 8px;
+}
 .card__head{
     text-align: center;
     border-bottom:2px solid #E5E5E7;
+    padding: 10px;
 }
 .card__body.flex{
-    flex-direction: column;
-    row-gap: 20px;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    gap: 20px;
     padding: 30px 18px;
 }
-.card__body span{
+.card__body h4{
+    font-size: 22px;
+    padding-bottom:20px; 
+}
+.plan span{
     display:block;
+}
+.plan span:first-of-type{
+    font-weight: 700;
+    padding-bottom: 4px;
+}
+.plan span:last-of-type{
+    color: #AAAFAF;
+}
+.plan__detail ul{
+    min-height:140px;
+    line-height: 20px;
 }
