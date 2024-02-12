@@ -333,3 +333,27 @@ label.text{
    .faq i{
     padding-right: 40px;
    }
+
+
+/* FOOTER SECTION */
+.page__footer{
+    background-color: black;
+    color: white;
+    padding: 80px 0;
+}
+.page__footer .row{
+    justify-content: space-between;
+}
+.page__footer ul li{
+    padding-bottom: 10px;
+}
+.page__footer__link::after{
+    content: '';
+    display: block;
+    margin:40px 0;
+    width: 100px;
+    border-bottom: 2px solid white;
+}
+.page__footer__lang{
+    color:#999999;
+}
