@@ -126,13 +126,14 @@ body{
     margin-top:80px;
 }
 .billing__section .section-title{
-    padding: 50px 0;
+    padding: 50px 20px;
 }
 .billing-radio{
     width: 18px;
     height: 18px;
     position: relative;
     top: 4px;
+    margin-left: 20px;
 }
 label.text{
     padding-right: 50px;
@@ -150,8 +151,8 @@ label.text{
     border: 2px solid #E5E5E7;
     padding-bottom: 30px;
 }
-.card i{
-    padding-right: 8px;
+.card__head i{
+    padding-right: 10px;
 }
 .card__head{
     text-align: center;
@@ -179,12 +180,15 @@ label.text{
     color: #AAAFAF;
 }
 .plan__detail ul{
-    flex-wrap: wrap;
-    min-height:140px;
+    min-height:200px;
     line-height: 20px;
 }
-.plan__detail ul li::before {
-    padding-right: 15px;
+.plan__detail li{
+    display: flex;
+    padding: 10px 0;
+}
+.plan__detail i{
+    padding-right:12px;
 }
 .subscribe{
     flex-grow: 1;
@@ -199,8 +203,10 @@ label.text{
     text-decoration: underline;
     color:blue;
 }
-.subscribe p{
-    width: 60%;
+.subscribe::after{
+    display: block;
+    content: '';
+    width: 50px;
     border-bottom: 2px solid #E5E5E7;
     padding-bottom: 30px;
 }
@@ -208,10 +214,12 @@ label.text{
     padding: 15px 0;
 }
 .plan__highlights li{
+    display: flex;
     padding-bottom:15px;
 }
 .plan__highlights li::before{
-    content: '\2713';
+    font-family: "Font Awesome 6 Free";
+    content: '\f00c';
     margin-right: 5px;
     color: #0161FF;
     font-size: 18px;
@@ -230,3 +238,6 @@ label.text{
 .company .col-4{
     padding: 30px;
 }
+
+
+/*  */
