@@ -159,7 +159,7 @@ label.text{
 }
 
 /* PLAN SECTION */
-.row >.col-4 {
+.billing__section .row >.col-4 {
     padding:0 20px
 }
 .card{
@@ -290,6 +290,40 @@ label.text{
     color: blue;
     text-decoration: underline;
 }
+
+
+/* SPONSOR SECTION */
+.sponsor .col-6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1/1;
+}
+.sponsor .col-6 img{
+    width:70%;
+    filter: invert(100%);
+}
+.sponsor .col-4.content{
+    background-color:#F5F5F5 ;
+    padding: 40px;
+    
+}
+.col-4.content img{
+    width: 300px;
+    margin-bottom: 30px;
+}
+.line::before{
+    content: '';
+    display: block;
+    border-bottom:2px solid #D2D2D4 ;
+    width: 300px;
+    margin-bottom: 40px;
+}
+.content p{
+    padding-bottom: 60px;
+}
+
+
 
 
 /* FREE TRIAL SECTION */
