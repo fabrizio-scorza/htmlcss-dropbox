@@ -297,12 +297,13 @@ label.text{
 }
 .free-trial .row{
     align-content: center;
-    align-items:baseline;
+    align-items: baseline;
     min-height: 360px;
 }
 .free-trial .btn{
     background-color:white;
     color: black;
-    line-height: 36px;
-    padding: 0 45px;
+    font-size: 14px;
+    line-height: 50px;
+    padding: 0 60px;
 }
