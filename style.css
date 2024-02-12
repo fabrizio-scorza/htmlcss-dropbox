@@ -299,6 +299,9 @@ label.text{
     align-items: center;
     aspect-ratio: 1/1;
 }
+.sponsor .col-6:hover{
+    border: 15px solid rgba(00, 00, 00, 0.2);
+}
 .sponsor .col-6 img{
     width:70%;
     filter: invert(100%);
@@ -306,7 +309,6 @@ label.text{
 .sponsor .col-4.content{
     background-color:#F5F5F5 ;
     padding: 40px;
-    
 }
 .col-4.content img{
     width: 300px;
