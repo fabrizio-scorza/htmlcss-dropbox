@@ -308,10 +308,11 @@ label.text{
 }
 .sponsor .col-4.content{
     background-color:#F5F5F5 ;
+    font-size: 12px;
     padding: 40px;
 }
 .col-4.content img{
-    width: 300px;
+    width: 250px;
     margin-bottom: 30px;
 }
 .line::before{
@@ -321,9 +322,10 @@ label.text{
     width: 100px;
     margin-bottom: 40px;
 }
-.content p{
-    padding-bottom: 60px;
+.line {
+    padding-bottom: 30px;
 }
+
 
 
 
