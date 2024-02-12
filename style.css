@@ -252,7 +252,7 @@ label.text{
 /* PARTNER SECTION */
 .partner{
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 .partner *[class^="col"]{
     padding: 20px;
@@ -265,4 +265,24 @@ label.text{
     background-color: white;
     color: black;
     border: 2px solid black;
+}
+
+
+/* BUSINESS SECTION */
+.business {
+    margin-bottom: 80px;
+}
+.business .section-title{
+    padding: 20px;
+}
+.business  .col-4{
+    padding: 0 20px;
+}
+.business p{
+    margin-bottom: 50px;
+}
+.business a {
+    padding: 20px;
+    color: blue;
+    text-decoration: underline;
 }
