@@ -273,6 +273,7 @@ label.text{
     margin-bottom: 80px;
 }
 .business .section-title{
+    margin-bottom: 30px;
     padding: 20px;
 }
 .business  .col-4{
@@ -285,4 +286,23 @@ label.text{
     padding: 20px;
     color: blue;
     text-decoration: underline;
+}
+
+
+/* FREE TRIAL SECTION */
+.free-trial{
+    background-color:#B4D0E7 ;
+    color: #61082B ;
+    padding: 0 20px;
+}
+.free-trial .row{
+    align-content: center;
+    align-items:baseline;
+    min-height: 360px;
+}
+.free-trial .btn{
+    background-color:white;
+    color: black;
+    line-height: 36px;
+    padding: 0 45px;
 }
