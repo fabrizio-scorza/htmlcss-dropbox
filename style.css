@@ -53,6 +53,9 @@ body{
 .col-8{
     width: calc(8*100%/12);
 }
+.col-12{
+    width: calc(12*100%/12);
+}
 
 
 /* UTILITIES */
@@ -294,11 +297,13 @@ label.text{
     background-color:#B4D0E7 ;
     color: #61082B ;
     padding: 0 20px;
+    margin-bottom: 80px;
 }
 .free-trial .row{
     align-content: center;
     align-items: baseline;
     min-height: 360px;
+    padding: 0 20px;
 }
 .free-trial .btn{
     background-color:white;
@@ -307,3 +312,24 @@ label.text{
     line-height: 50px;
     padding: 0 60px;
 }
+
+
+/* FAQ SECTION */
+.faq{
+    padding: 0 20px;
+    margin-bottom: 80px;
+}
+.faq .section-title{
+    margin-bottom: 50px;
+}
+.faq .col-12{
+    justify-content: space-between;
+    border-top: 2px solid #A0A0A0;
+    padding:30px 0 ;
+}
+.faq .col-12:last-child{
+    border-bottom: 2px solid #A0A0A0;
+   }
+   .faq i{
+    padding-right: 40px;
+   }
