@@ -116,7 +116,7 @@ body{
     line-height: 100px;
 }
 .translate{
-    transform:translateY(18%)
+    transform:translateY(18%); /*margine negativo sull'immagine*/
 }
 .flex.content{
     flex-direction: column;
@@ -160,7 +160,7 @@ label.text{
 
 /* PLAN SECTION */
 .billing__section .row >.col-4 {
-    padding:0 20px
+    padding:0 20px   /*margine negativo alla row per bilanciare il padding in modo da riallineare tutto il contenuto*/q
 }
 .card{
     height: 100%;
@@ -325,8 +325,6 @@ label.text{
 .line {
     padding-bottom: 30px;
 }
-
-
 
 
 
